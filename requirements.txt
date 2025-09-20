@@ -1,0 +1,22 @@
+# Web Framework
+Flask==3.0.0
+
+# Database
+SQLAlchemy==2.0.27
+alembic==1.13.1
+
+# VK API
+vk-api==11.9.9
+
+# Task Queue and Scheduling
+celery==5.3.6
+redis==5.0.1
+
+# Video Processing
+moviepy==1.0.3
+Pillow==10.2.0
+
+# Utils
+python-dotenv==1.0.1
+requests==2.31.0
+pydantic==2.6.1

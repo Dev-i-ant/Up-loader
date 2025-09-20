@@ -1,0 +1,13 @@
+defaults:
+  uploader: vk_api
+  publish_delay_sec: 2
+  retry:
+    max_attempts: 5
+    backoff_sec: 5
+ffmpeg:
+  bin: ffmpeg
+  video_bitrate: "3000k"
+  audio_bitrate: "128k"
+scheduler:
+  timezone: "America/Chicago"
+  workers: 2
